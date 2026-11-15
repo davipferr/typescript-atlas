@@ -20,6 +20,7 @@ export default defineConfig({
     logo: '/logo.svg',
 
     nav: [
+      { text: '80/20 Path', link: '/pareto' },
       { text: 'Feature Index', link: '/features' },
       { text: 'Start', link: '/fundamentals/type-system' }
     ],
@@ -27,7 +28,10 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Overview',
-        items: [{ text: 'Feature Index', link: '/features' }]
+        items: [
+          { text: '80/20 Path', link: '/pareto' },
+          { text: 'Feature Index', link: '/features' }
+        ]
       },
       ...sections.map((section) => ({
         text: `${section.icon} ${section.text}`,

@@ -10,6 +10,9 @@ hero:
     alt: TypeScript Atlas
   actions:
     - theme: brand
+      text: New to TypeScript? Start with the 80/20 Path
+      link: /pareto
+    - theme: alt
       text: Browse the Feature Index
       link: /features
     - theme: alt
